@@ -606,8 +606,13 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     #define CHAR8_T_DEFINED
 
     #if (EA_WCHAR_SIZE == 2)
+		#define _VCPP
+		#ifdef _VCPP
+			#include <yvals.h>
+		#else
+			typedef wchar_t   char16_t;
+		#endif
         typedef char      char8_t;
-        typedef wchar_t   char16_t;
         typedef uint32_t  char32_t;
     #else
         typedef char      char8_t;
