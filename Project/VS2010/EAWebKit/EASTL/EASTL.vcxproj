@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E1966128-A111-4004-A84B-713C6A3A02FE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>EASTL</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\SupportPackage\EABaseEAWebKit\local\include\Common;..\..\..\..\SupportPackage\EASTLEAWebKit\local\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\source\allocator.cpp" />
+    <ClCompile Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\source\assert.cpp" />
+    <ClCompile Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\source\fixed_pool.cpp" />
+    <ClCompile Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\source\hashtable.cpp" />
+    <ClCompile Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\source\red_black_tree.cpp" />
+    <ClCompile Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\source\string.cpp" />
+    <ClCompile Include="allocator.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\algorithm.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\allocator.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\bitset.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\bonus\sort_extra.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\core_allocator_adapter.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\fixed_allocator.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\fixed_hash_map.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\fixed_hash_set.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\fixed_list.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\fixed_map.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\fixed_set.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\fixed_string.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\fixed_substring.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\fixed_vector.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\functional.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\hash_map.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\hash_set.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\heap.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\internal\config.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\internal\eastl_rw.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\internal\fixed_pool.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\internal\generic_iterator.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\internal\hashtable.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\internal\red_black_tree.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\internal\type_compound.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\internal\type_fundamental.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\internal\type_pod.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\internal\type_properties.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\internal\type_transformations.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\iterator.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\list.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\map.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\memory.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\set.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\sort.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\string.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\type_traits.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\utility.h" />
+    <ClInclude Include="..\..\..\..\SupportPackage\EASTLEAWebKit\local\include\EASTL\vector.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
