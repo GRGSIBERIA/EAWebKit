@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{991ABCBC-9461-4F51-8563-8E626DB2430A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>EAWebKit_VC2010</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\eiichi\GitHUB\EAWebKit_VC2010\EAWebKit_VC2010\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\coreallocator\newdelete.cpp" />
+    <ClCompile Include="..\source\EAAssert\eaassert.cpp" />
+    <ClCompile Include="..\source\EAIO\Allocator.cpp" />
+    <ClCompile Include="..\source\EAIO\EAFileDirectory.cpp" />
+    <ClCompile Include="..\source\EAIO\EAFileNotification.cpp" />
+    <ClCompile Include="..\source\EAIO\EAFileStream.cpp" />
+    <ClCompile Include="..\source\EAIO\EAFileUtil.cpp" />
+    <ClCompile Include="..\source\EAIO\EAStreamAdapter.cpp" />
+    <ClCompile Include="..\source\EAIO\EAStreamBuffer.cpp" />
+    <ClCompile Include="..\source\EAIO\EAStreamChild.cpp" />
+    <ClCompile Include="..\source\EAIO\EAStreamCpp.cpp" />
+    <ClCompile Include="..\source\EAIO\EAStreamFixedMemory.cpp" />
+    <ClCompile Include="..\source\EAIO\EAStreamMemory.cpp" />
+    <ClCompile Include="..\source\EAIO\EAStreamNull.cpp" />
+    <ClCompile Include="..\source\EAIO\FnEncode.cpp" />
+    <ClCompile Include="..\source\EAIO\FnMatch.cpp" />
+    <ClCompile Include="..\source\EAIO\internal\EAIOCoreAllocator.cpp" />
+    <ClCompile Include="..\source\EAIO\internal\EAIOZoneObject.cpp" />
+    <ClCompile Include="..\source\EAIO\PathString.cpp" />
+    <ClCompile Include="..\source\EAIO\Win32\EAFileStreamWin32.cpp" />
+    <ClCompile Include="..\source\UTFXml\internal\UTFXmlCoreAllocator.cpp" />
+    <ClCompile Include="..\source\UTFXml\XmlCallbackReader.cpp" />
+    <ClCompile Include="..\source\UTFXml\XmlDomReader.cpp" />
+    <ClCompile Include="..\source\UTFXml\XmlEncoding.cpp" />
+    <ClCompile Include="..\source\UTFXml\XmlReader.cpp" />
+    <ClCompile Include="..\source\UTFXml\XmlReaderErrors.cpp" />
+    <ClCompile Include="..\source\UTFXml\XmlTokenBuffer.cpp" />
+    <ClCompile Include="..\source\UTFXml\XmlWriter.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\coreallocator\detail\macro_impl.h" />
+    <ClInclude Include="..\include\coreallocator\icoreallocator.h" />
+    <ClInclude Include="..\include\coreallocator\icoreallocatormacros.h" />
+    <ClInclude Include="..\include\coreallocator\icoreallocator_interface.h" />
+    <ClInclude Include="..\include\coreallocator\icorealloclistener.h" />
+    <ClInclude Include="..\include\coreallocator\version.h" />
+    <ClInclude Include="..\include\EAAssert\eaassert.h" />
+    <ClInclude Include="..\include\EABase\config\eacompiler.h" />
+    <ClInclude Include="..\include\EABase\config\eacompilertraits.h" />
+    <ClInclude Include="..\include\EABase\config\eaplatform.h" />
+    <ClInclude Include="..\include\EABase\eabase.h" />
+    <ClInclude Include="..\include\EABase\earesult.h" />
+    <ClInclude Include="..\include\EAIO\Allocator.h" />
+    <ClInclude Include="..\include\EAIO\EAFileBase.h" />
+    <ClInclude Include="..\include\EAIO\EAFileDirectory.h" />
+    <ClInclude Include="..\include\EAIO\EAFileNotification.h" />
+    <ClInclude Include="..\include\EAIO\EAFileStream.h" />
+    <ClInclude Include="..\include\EAIO\EAFileUtil.h" />
+    <ClInclude Include="..\include\EAIO\EAStream.h" />
+    <ClInclude Include="..\include\EAIO\EAStreamAdapter.h" />
+    <ClInclude Include="..\include\EAIO\EAStreamBuffer.h" />
+    <ClInclude Include="..\include\EAIO\EAStreamChild.h" />
+    <ClInclude Include="..\include\EAIO\EAStreamCpp.h" />
+    <ClInclude Include="..\include\EAIO\EAStreamFixedMemory.h" />
+    <ClInclude Include="..\include\EAIO\EAStreamMemory.h" />
+    <ClInclude Include="..\include\EAIO\EAStreamNull.h" />
+    <ClInclude Include="..\include\EAIO\FnEncode.h" />
+    <ClInclude Include="..\include\EAIO\FnMatch.h" />
+    <ClInclude Include="..\include\EAIO\internal\Config.h" />
+    <ClInclude Include="..\include\EAIO\internal\EAIOEARefCount.h" />
+    <ClInclude Include="..\include\EAIO\internal\EAIOEASTLCoreAllocator.h" />
+    <ClInclude Include="..\include\EAIO\internal\EAIOZoneObject.h" />
+    <ClInclude Include="..\include\EAIO\PathString.h" />
+    <ClInclude Include="..\include\EAIO\Win32\EAFileStreamWin32.h" />
+    <ClInclude Include="..\include\EASTL\algorithm.h" />
+    <ClInclude Include="..\include\EASTL\allocator.h" />
+    <ClInclude Include="..\include\EASTL\bitset.h" />
+    <ClInclude Include="..\include\EASTL\bonus\sort_extra.h" />
+    <ClInclude Include="..\include\EASTL\core_allocator_adapter.h" />
+    <ClInclude Include="..\include\EASTL\fixed_allocator.h" />
+    <ClInclude Include="..\include\EASTL\fixed_hash_map.h" />
+    <ClInclude Include="..\include\EASTL\fixed_hash_set.h" />
+    <ClInclude Include="..\include\EASTL\fixed_list.h" />
+    <ClInclude Include="..\include\EASTL\fixed_map.h" />
+    <ClInclude Include="..\include\EASTL\fixed_set.h" />
+    <ClInclude Include="..\include\EASTL\fixed_string.h" />
+    <ClInclude Include="..\include\EASTL\fixed_substring.h" />
+    <ClInclude Include="..\include\EASTL\fixed_vector.h" />
+    <ClInclude Include="..\include\EASTL\functional.h" />
+    <ClInclude Include="..\include\EASTL\hash_map.h" />
+    <ClInclude Include="..\include\EASTL\hash_set.h" />
+    <ClInclude Include="..\include\EASTL\heap.h" />
+    <ClInclude Include="..\include\EASTL\internal\config.h" />
+    <ClInclude Include="..\include\EASTL\internal\eastl_rw.h" />
+    <ClInclude Include="..\include\EASTL\internal\fixed_pool.h" />
+    <ClInclude Include="..\include\EASTL\internal\generic_iterator.h" />
+    <ClInclude Include="..\include\EASTL\internal\hashtable.h" />
+    <ClInclude Include="..\include\EASTL\internal\red_black_tree.h" />
+    <ClInclude Include="..\include\EASTL\internal\type_compound.h" />
+    <ClInclude Include="..\include\EASTL\internal\type_fundamental.h" />
+    <ClInclude Include="..\include\EASTL\internal\type_pod.h" />
+    <ClInclude Include="..\include\EASTL\internal\type_properties.h" />
+    <ClInclude Include="..\include\EASTL\internal\type_transformations.h" />
+    <ClInclude Include="..\include\EASTL\iterator.h" />
+    <ClInclude Include="..\include\EASTL\list.h" />
+    <ClInclude Include="..\include\EASTL\map.h" />
+    <ClInclude Include="..\include\EASTL\memory.h" />
+    <ClInclude Include="..\include\EASTL\set.h" />
+    <ClInclude Include="..\include\EASTL\sort.h" />
+    <ClInclude Include="..\include\EASTL\string.h" />
+    <ClInclude Include="..\include\EASTL\type_traits.h" />
+    <ClInclude Include="..\include\EASTL\utility.h" />
+    <ClInclude Include="..\include\EASTL\vector.h" />
+    <ClInclude Include="..\include\UTFXml\internal\Config.h" />
+    <ClInclude Include="..\include\UTFXml\internal\core_allocator_adapter.h" />
+    <ClInclude Include="..\include\UTFXml\XmlCallbackReader.h" />
+    <ClInclude Include="..\include\UTFXml\XmlDomReader.h" />
+    <ClInclude Include="..\include\UTFXml\XmlEncoding.h" />
+    <ClInclude Include="..\include\UTFXml\XmlReader.h" />
+    <ClInclude Include="..\include\UTFXml\XmlTokenBuffer.h" />
+    <ClInclude Include="..\include\UTFXml\XmlWriter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\include\UTFXml\XmlCharClasses.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

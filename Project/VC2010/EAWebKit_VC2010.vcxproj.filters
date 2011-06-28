@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\EASTL">
+      <UniqueIdentifier>{acfc2e57-f872-4879-a406-9407e81a056e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\EASTL">
+      <UniqueIdentifier>{f11b1ee7-4215-47ae-a1bd-dcf778b711bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\EABase">
+      <UniqueIdentifier>{28cac046-bb2d-4c72-aa24-c3eacb81a3f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\EABase\config">
+      <UniqueIdentifier>{7b198569-a109-49cb-82fa-796898b2401e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\EASTL\bonus">
+      <UniqueIdentifier>{3f2f12ae-a092-4599-9b1a-d9cbac05c27f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\EASTL\internal">
+      <UniqueIdentifier>{804c636b-966a-4330-8797-c26cdefea9ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UTFXml">
+      <UniqueIdentifier>{a4504d8d-3739-4598-bebd-6596d6e9058e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UTFXml\internal">
+      <UniqueIdentifier>{24fce7b5-3420-4bdf-913c-98a372d94bd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\UTFXml">
+      <UniqueIdentifier>{7653eb68-bd96-405a-bcd2-76c0e413d8a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\UTFXml\internal">
+      <UniqueIdentifier>{4c55b671-eaa1-4a90-aef7-60df1b5c91db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\EAIO">
+      <UniqueIdentifier>{5b0f7356-645f-4d10-8ddd-e457d01cdd9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\coreallocator">
+      <UniqueIdentifier>{9f687d9f-f21a-4c86-adac-6e9983ade061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\EAIO">
+      <UniqueIdentifier>{24bc8470-31b1-4f97-ad6e-43306704da45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\coreallocator">
+      <UniqueIdentifier>{d929eb4f-55e5-4379-998a-ea2f7e7c5081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\EAIO\internal">
+      <UniqueIdentifier>{b6f4cf39-e12f-428f-a69f-2d206b5e19c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\EAIO\internal">
+      <UniqueIdentifier>{8b71e9ae-6d9f-4ea6-8ea0-548b0cfd1d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\coreallocator\detail">
+      <UniqueIdentifier>{5dbf5483-9937-4018-ad0e-6bd85f197900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\EAAssert">
+      <UniqueIdentifier>{7bd5242c-5906-4243-bb55-c0073ac209b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\EAAssert">
+      <UniqueIdentifier>{68bf097a-36c5-4921-b0e4-e3297ff07d2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\EAIO\Win32">
+      <UniqueIdentifier>{39415e37-f3b0-425a-b2a3-10a5311e207e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\EAIO\Win32">
+      <UniqueIdentifier>{0a6e3ad8-d29a-4bcd-bf64-a24194612289}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UTFXml\XmlCallbackReader.cpp">
+      <Filter>ソース ファイル\UTFXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UTFXml\XmlDomReader.cpp">
+      <Filter>ソース ファイル\UTFXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UTFXml\XmlEncoding.cpp">
+      <Filter>ソース ファイル\UTFXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UTFXml\XmlReader.cpp">
+      <Filter>ソース ファイル\UTFXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UTFXml\XmlReaderErrors.cpp">
+      <Filter>ソース ファイル\UTFXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UTFXml\XmlTokenBuffer.cpp">
+      <Filter>ソース ファイル\UTFXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UTFXml\XmlWriter.cpp">
+      <Filter>ソース ファイル\UTFXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\UTFXml\internal\UTFXmlCoreAllocator.cpp">
+      <Filter>ソース ファイル\UTFXml\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\coreallocator\newdelete.cpp">
+      <Filter>ソース ファイル\coreallocator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\EAAssert\eaassert.cpp">
+      <Filter>ソース ファイル\EAAssert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\EAIO\internal\EAIOCoreAllocator.cpp">
+      <Filter>ソース ファイル\EAIO\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\EAIO\internal\EAIOZoneObject.cpp">
+      <Filter>ソース ファイル\EAIO\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\EAIO\Win32\EAFileStreamWin32.cpp">
+      <Filter>ソース ファイル\EAIO\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\EAIO\EAStreamChild.cpp">
+      <Filter>ソース ファイル\EAIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\EAIO\EAStreamCpp.cpp">
+      <Filter>ソース ファイル\EAIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\EAIO\EAStreamFixedMemory.cpp">
+      <Filter>ソース ファイル\EAIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\EAIO\EAStreamMemory.cpp">
+      <Filter>ソース ファイル\EAIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\EAIO\EAStreamNull.cpp">
+      <Filter>ソース ファイル\EAIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\EAIO\FnEncode.cpp">
+      <Filter>ソース ファイル\EAIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\EAIO\FnMatch.cpp">
+      <Filter>ソース ファイル\EAIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\EAIO\PathString.cpp">
+      <Filter>ソース ファイル\EAIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\EAIO\Allocator.cpp">
+      <Filter>ソース ファイル\EAIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\EAIO\EAFileDirectory.cpp">
+      <Filter>ソース ファイル\EAIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\EAIO\EAFileNotification.cpp">
+      <Filter>ソース ファイル\EAIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\EAIO\EAFileStream.cpp">
+      <Filter>ソース ファイル\EAIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\EAIO\EAFileUtil.cpp">
+      <Filter>ソース ファイル\EAIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\EAIO\EAStreamAdapter.cpp">
+      <Filter>ソース ファイル\EAIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\EAIO\EAStreamBuffer.cpp">
+      <Filter>ソース ファイル\EAIO</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\coreallocator\detail\macro_impl.h">
+      <Filter>ヘッダー ファイル\coreallocator\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\coreallocator\icoreallocator_interface.h">
+      <Filter>ヘッダー ファイル\coreallocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\coreallocator\icoreallocatormacros.h">
+      <Filter>ヘッダー ファイル\coreallocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\coreallocator\icorealloclistener.h">
+      <Filter>ヘッダー ファイル\coreallocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\coreallocator\version.h">
+      <Filter>ヘッダー ファイル\coreallocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\coreallocator\icoreallocator.h">
+      <Filter>ヘッダー ファイル\coreallocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EAAssert\eaassert.h">
+      <Filter>ヘッダー ファイル\EAAssert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EABase\config\eacompiler.h">
+      <Filter>ヘッダー ファイル\EABase\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EABase\config\eacompilertraits.h">
+      <Filter>ヘッダー ファイル\EABase\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EABase\config\eaplatform.h">
+      <Filter>ヘッダー ファイル\EABase\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EABase\earesult.h">
+      <Filter>ヘッダー ファイル\EABase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EABase\eabase.h">
+      <Filter>ヘッダー ファイル\EABase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EAIO\EAFileDirectory.h">
+      <Filter>ヘッダー ファイル\EAIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EAIO\EAFileNotification.h">
+      <Filter>ヘッダー ファイル\EAIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EAIO\EAFileStream.h">
+      <Filter>ヘッダー ファイル\EAIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EAIO\EAFileUtil.h">
+      <Filter>ヘッダー ファイル\EAIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EAIO\EAStream.h">
+      <Filter>ヘッダー ファイル\EAIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EAIO\EAStreamAdapter.h">
+      <Filter>ヘッダー ファイル\EAIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EAIO\EAStreamBuffer.h">
+      <Filter>ヘッダー ファイル\EAIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EAIO\EAStreamChild.h">
+      <Filter>ヘッダー ファイル\EAIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EAIO\EAStreamCpp.h">
+      <Filter>ヘッダー ファイル\EAIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EAIO\EAStreamFixedMemory.h">
+      <Filter>ヘッダー ファイル\EAIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EAIO\EAStreamMemory.h">
+      <Filter>ヘッダー ファイル\EAIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EAIO\EAStreamNull.h">
+      <Filter>ヘッダー ファイル\EAIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EAIO\FnEncode.h">
+      <Filter>ヘッダー ファイル\EAIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EAIO\FnMatch.h">
+      <Filter>ヘッダー ファイル\EAIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EAIO\PathString.h">
+      <Filter>ヘッダー ファイル\EAIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EAIO\Allocator.h">
+      <Filter>ヘッダー ファイル\EAIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EAIO\EAFileBase.h">
+      <Filter>ヘッダー ファイル\EAIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EAIO\internal\Config.h">
+      <Filter>ヘッダー ファイル\EAIO\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EAIO\internal\EAIOEARefCount.h">
+      <Filter>ヘッダー ファイル\EAIO\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EAIO\internal\EAIOEASTLCoreAllocator.h">
+      <Filter>ヘッダー ファイル\EAIO\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EAIO\internal\EAIOZoneObject.h">
+      <Filter>ヘッダー ファイル\EAIO\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\bonus\sort_extra.h">
+      <Filter>ヘッダー ファイル\EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\internal\config.h">
+      <Filter>ヘッダー ファイル\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\internal\eastl_rw.h">
+      <Filter>ヘッダー ファイル\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\internal\fixed_pool.h">
+      <Filter>ヘッダー ファイル\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\internal\generic_iterator.h">
+      <Filter>ヘッダー ファイル\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\internal\hashtable.h">
+      <Filter>ヘッダー ファイル\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\internal\red_black_tree.h">
+      <Filter>ヘッダー ファイル\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\internal\type_compound.h">
+      <Filter>ヘッダー ファイル\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\internal\type_fundamental.h">
+      <Filter>ヘッダー ファイル\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\internal\type_pod.h">
+      <Filter>ヘッダー ファイル\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\internal\type_properties.h">
+      <Filter>ヘッダー ファイル\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\internal\type_transformations.h">
+      <Filter>ヘッダー ファイル\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\set.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\sort.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\string.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\type_traits.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\utility.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\vector.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\algorithm.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\allocator.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\bitset.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\core_allocator_adapter.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\fixed_allocator.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\fixed_hash_map.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\fixed_hash_set.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\fixed_list.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\fixed_map.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\fixed_set.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\fixed_string.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\fixed_substring.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\fixed_vector.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\functional.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\hash_map.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\hash_set.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\heap.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\iterator.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\list.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\map.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EASTL\memory.h">
+      <Filter>ヘッダー ファイル\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\UTFXml\XmlEncoding.h">
+      <Filter>ヘッダー ファイル\UTFXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\UTFXml\XmlReader.h">
+      <Filter>ヘッダー ファイル\UTFXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\UTFXml\XmlTokenBuffer.h">
+      <Filter>ヘッダー ファイル\UTFXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\UTFXml\XmlWriter.h">
+      <Filter>ヘッダー ファイル\UTFXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\UTFXml\XmlCallbackReader.h">
+      <Filter>ヘッダー ファイル\UTFXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\UTFXml\XmlDomReader.h">
+      <Filter>ヘッダー ファイル\UTFXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\UTFXml\internal\Config.h">
+      <Filter>ヘッダー ファイル\UTFXml\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\UTFXml\internal\core_allocator_adapter.h">
+      <Filter>ヘッダー ファイル\UTFXml\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EAIO\Win32\EAFileStreamWin32.h">
+      <Filter>ヘッダー ファイル\EAIO\Win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\include\UTFXml\XmlCharClasses.inl">
+      <Filter>ヘッダー ファイル\UTFXml</Filter>
+    </None>
+  </ItemGroup>
+</Project>

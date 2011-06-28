@@ -1,0 +1,85 @@
+﻿  main.cpp
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\yvals.h(576): error C2371: 'char16_t' : 再定義されています。異なる基本型です。
+          c:\users\eiichi\github\eawebkit_vc\include\eabase\eabase.h(611) : 'char16_t' の宣言を確認してください。
+  XmlReaderErrors.cpp
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\yvals.h(576): error C2371: 'char16_t' : 再定義されています。異なる基本型です。
+          c:\users\eiichi\github\eawebkit_vc\include\eabase\eabase.h(611) : 'char16_t' の宣言を確認してください。
+  XmlReader.cpp
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\yvals.h(576): error C2371: 'char16_t' : 再定義されています。異なる基本型です。
+          c:\users\eiichi\github\eawebkit_vc\include\eabase\eabase.h(611) : 'char16_t' の宣言を確認してください。
+  XmlDomReader.cpp
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\yvals.h(576): error C2371: 'char16_t' : 再定義されています。異なる基本型です。
+          c:\users\eiichi\github\eawebkit_vc\include\eabase\eabase.h(611) : 'char16_t' の宣言を確認してください。
+  XmlCallbackReader.cpp
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\yvals.h(576): error C2371: 'char16_t' : 再定義されています。異なる基本型です。
+          c:\users\eiichi\github\eawebkit_vc\include\eabase\eabase.h(611) : 'char16_t' の宣言を確認してください。
+  EAIOZoneObject.cpp
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\yvals.h(576): error C2371: 'char16_t' : 再定義されています。異なる基本型です。
+          c:\users\eiichi\github\eawebkit_vc\include\eabase\eabase.h(611) : 'char16_t' の宣言を確認してください。
+  PathString.cpp
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\yvals.h(576): error C2371: 'char16_t' : 再定義されています。異なる基本型です。
+          c:\users\eiichi\github\eawebkit_vc\include\eabase\eabase.h(611) : 'char16_t' の宣言を確認してください。
+  FnEncode.cpp
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\yvals.h(576): error C2371: 'char16_t' : 再定義されています。異なる基本型です。
+          c:\users\eiichi\github\eawebkit_vc\include\eabase\eabase.h(611) : 'char16_t' の宣言を確認してください。
+  EAStreamMemory.cpp
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\yvals.h(576): error C2371: 'char16_t' : 再定義されています。異なる基本型です。
+          c:\users\eiichi\github\eawebkit_vc\include\eabase\eabase.h(611) : 'char16_t' の宣言を確認してください。
+  EAStreamCpp.cpp
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\yvals.h(576): error C2371: 'char16_t' : 再定義されています。異なる基本型です。
+          c:\users\eiichi\github\eawebkit_vc\include\eabase\eabase.h(611) : 'char16_t' の宣言を確認してください。
+  EAStreamBuffer.cpp
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\yvals.h(576): error C2371: 'char16_t' : 再定義されています。異なる基本型です。
+          c:\users\eiichi\github\eawebkit_vc\include\eabase\eabase.h(611) : 'char16_t' の宣言を確認してください。
+  EAFileUtil.cpp
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\yvals.h(576): error C2371: 'char16_t' : 再定義されています。異なる基本型です。
+          c:\users\eiichi\github\eawebkit_vc\include\eabase\eabase.h(611) : 'char16_t' の宣言を確認してください。
+c:\users\eiichi\github\eawebkit_vc\source\eaio\eafileutil.cpp(1764): error C2664: 'GetProcAddress' : 2 番目の引数を 'const wchar_t [13]' から 'LPCSTR' に変換できません。(新しい機能 ; ヘルプを参照)
+          指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたは関数スタイルのキャストが必要です。
+c:\users\eiichi\github\eawebkit_vc\source\eaio\eafileutil.cpp(1765): error C2664: 'GetProcAddress' : 2 番目の引数を 'const wchar_t [15]' から 'LPCSTR' に変換できません。(新しい機能 ; ヘルプを参照)
+          指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたは関数スタイルのキャストが必要です。
+c:\users\eiichi\github\eawebkit_vc\source\eaio\eafileutil.cpp(1766): error C2664: 'GetProcAddress' : 2 番目の引数を 'const wchar_t [17]' から 'LPCSTR' に変換できません。(新しい機能 ; ヘルプを参照)
+          指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたは関数スタイルのキャストが必要です。
+  EAFileNotification.cpp
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\yvals.h(576): error C2371: 'char16_t' : 再定義されています。異なる基本型です。
+          c:\users\eiichi\github\eawebkit_vc\include\eabase\eabase.h(611) : 'char16_t' の宣言を確認してください。
+c:\users\eiichi\github\eawebkit_vc\source\eaio\eafilenotification.cpp(105): error C2664: 'LoadLibraryW' : 1 番目の引数を 'const char [13]' から 'LPCWSTR' に変換できません。(新しい機能 ; ヘルプを参照)
+          指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたは関数スタイルのキャストが必要です。
+  EAFileDirectory.cpp
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\yvals.h(576): error C2371: 'char16_t' : 再定義されています。異なる基本型です。
+          c:\users\eiichi\github\eawebkit_vc\include\eabase\eabase.h(611) : 'char16_t' の宣言を確認してください。
+  eaassert.cpp
+c:\users\eiichi\github\eawebkit_vc\source\eaassert\eaassert.cpp(71): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : '_vsnprintf' の宣言を確認してください。
+c:\users\eiichi\github\eawebkit_vc\source\eaassert\eaassert.cpp(82): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : '_snprintf' の宣言を確認してください。
+c:\users\eiichi\github\eawebkit_vc\source\eaassert\eaassert.cpp(95): error C2664: 'OutputDebugStringW' : 1 番目の引数を 'char [2049]' から 'LPCWSTR' に変換できません。(新しい機能 ; ヘルプを参照)
+          指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたは関数スタイルのキャストが必要です。
+  コードを生成中...
+  コンパイル中...
+  Allocator.cpp
+  コードを生成中...
+  コンパイル中...
+  UTFXmlCoreAllocator.cpp
+  XmlWriter.cpp
+c:\users\eiichi\github\eawebkit_vc\source\utfxml\xmlwriter.cpp(468): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : '_vsnprintf' の宣言を確認してください。
+  XmlTokenBuffer.cpp
+  XmlEncoding.cpp
+  EAIOCoreAllocator.cpp
+  EAFileStreamWin32.cpp
+c:\users\eiichi\github\eawebkit_vc\source\eaio\win32\eafilestreamwin32.cpp(170): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(306) : 'wcsncpy' の宣言を確認してください。
+c:\users\eiichi\github\eawebkit_vc\source\eaio\win32\eafilestreamwin32.cpp(190): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(306) : 'wcsncpy' の宣言を確認してください。
+  FnMatch.cpp
+  EAStreamNull.cpp
+  EAStreamFixedMemory.cpp
+  EAStreamChild.cpp
+  EAStreamAdapter.cpp
+  EAFileStream.cpp
+c:\users\eiichi\github\eawebkit_vc\source\eaio\win32\eafilestreamwin32.cpp(170): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(306) : 'wcsncpy' の宣言を確認してください。
+c:\users\eiichi\github\eawebkit_vc\source\eaio\win32\eafilestreamwin32.cpp(190): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(306) : 'wcsncpy' の宣言を確認してください。
+  コードを生成中...
